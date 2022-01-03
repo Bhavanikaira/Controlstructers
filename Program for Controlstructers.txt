@@ -1,0 +1,29 @@
+
+public class ControlStructers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=70;
+		if(a>=80) {
+			System.out.println(" old");
+		}else if(a>30 && a<80) {
+			System.out.println("a is between 30 and 80");
+		}else {
+			System.out.println("a is 30 or yougage");
+		}
+	//
+         String day="tuesday";
+          switch(day) {
+          case "monday":
+        	  System.out.println("today is monday");
+        	  break;
+          case "tuesday":
+        	  System.out.println("today is tuesday");
+        	  break;
+          case "wednesday":
+        	  System.out.println("today is wednesday");
+        	  break;
+          }
+	}
+
+}
